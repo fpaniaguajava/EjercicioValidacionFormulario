@@ -1,0 +1,17 @@
+Crear una clase CLIENTE
+- NOMBRE
+- DNI
+- EMAIL
+
+Validar en el constructor que:
+- El nombre tiene más de un carácter.
+- El DNI es válido (la letra).
+- EMAIL es válido.
+
+Crear una jerarquía de excepciones:
+FormularioException
+---DNIException
+---EmailException
+---NombreCortoException
+
+Crear una clase con el método main que instancie un cliente y controle las excepciones.
